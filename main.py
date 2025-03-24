@@ -28,3 +28,6 @@ app.include_router(notifications.router, prefix="/notifications", tags=["notific
 app.include_router(recents.router, prefix="/recents", tags=["recents"])
 app.include_router(trash.router, prefix="/trash", tags=["trash"])
 app.include_router(papers.router, prefix="/report", tags=["report"])
+
+if '__name__' == '__main__':
+    uvicorn.run('main:app', host='0.0.0.0', port=8000, reload=True)
