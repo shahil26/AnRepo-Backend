@@ -31,7 +31,7 @@ markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 mdurl==0.1.2
 mysql-connector-python==8.4.0
-orjson==3.10.5
+#orjson==3.10.5
 packaging==24.1
 passlib==1.7.4
 proto-plus==1.24.0
@@ -57,7 +57,7 @@ starlette==0.38.2
 tqdm==4.66.5
 typer==0.12.3
 typing_extensions==4.12.2
-ujson==5.10.0
+#ujson==5.10.0
 uritemplate==4.1.1
 scholarly
 urllib3==2.2.3
